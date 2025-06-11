@@ -63,6 +63,7 @@ h2 .fas, h2 .fab {
     margin-right: 12px;
 }
 
+/* Lista de elementos del menú desplegable*/
 ul {
     list-style: none;
     padding-left: 0;
@@ -89,6 +90,7 @@ ul li:last-child {
     margin: 0 0 15px;
 }
 
+/* Enlaces de redes sociales */
 .social-links a {
     color: #ffffff;
     text-decoration: none;
