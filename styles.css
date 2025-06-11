@@ -1,0 +1,106 @@
+/* Estilos generales */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f2f5;
+    color: #1c1e21;
+}
+
+/* Encabezado del Perfil */
+.profile-header {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 1px solid #dddfe2;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Hace la imagen circular */
+    border: 5px solid #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover; /* Asegura que la imagen no se deforme */
+}
+
+.profile-header h1 {
+    margin: 10px 0 5px;
+    font-size: 2.5em;
+    color: #1877f2;
+}
+
+.profile-header p {
+    margin: 0;
+    font-size: 1.2em;
+    color: #606770;
+}
+
+/* Contenido Principal */
+.profile-content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+}
+
+section h2 {
+    font-size: 1.5em;
+    color: #1877f2;
+    border-bottom: 2px solid #e7f3ff;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+/* Estilo para los íconos dentro de los títulos */
+h2 .fas, h2 .fab {
+    margin-right: 12px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f0f2f5;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+/* Pie de Página */
+.profile-footer {
+    background-color: #1c1e21;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-footer h3 {
+    margin: 0 0 15px;
+}
+
+.social-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #1877f2;
+}
+
+.social-links i {
+    margin-right: 8px;
+}
